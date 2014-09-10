@@ -5,11 +5,11 @@ require 'discourse_sso/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "discourse_sso"
-  spec.version       = DiscourseSso::VERSION
+  spec.version       = DiscourseSSO::VERSION
   spec.authors       = ["Zachary Friedman"]
   spec.email         = ["zafriedman@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Make it easier to implement Discourse SSO in Ruby}
+  spec.description   = %q{Make it easier to implement Discourse SSO in Ruby}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -19,5 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.7"
+  spec.add_development_dependency "pry", "~> 0.10.1"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rspec", "~> 3.1.0"
 end

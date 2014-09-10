@@ -1,4 +1,4 @@
-# DiscourseSso
+# Discourse SSO
 
 TODO: Write a gem description
 
