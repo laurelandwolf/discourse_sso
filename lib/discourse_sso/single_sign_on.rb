@@ -90,7 +90,7 @@ module DiscourseSSO
         end
       end
 
-      Rack::Utils.build_query(payload)
+      Rack::Utils.build_query(payload.select {|k, v| v.present? })
     end
   end
 end
